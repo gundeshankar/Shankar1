@@ -1,0 +1,130 @@
+Pre Assessment - Java 
+
+Answers
+
+1)equals()
+
+2)equals()
+
+3)extends
+
+4)Not Serializable Exception
+
+5) None of them will be executed
+
+6) Prevents SQL injection
+
+7) Both of the above correct
+
+8) 3 4 1
+
+9) llo
+
+9)2 3
+
+10)1 and 2 are correct 
+
+11)Exception
+
+12)protecting
+
+13)No
+
+14)1
+
+15)Polymorphism
+  poly means many
+  morphism means actions
+  Defining multiple functionalities with the same name with in the same program.
+  There are two types:
+      1)Static polymorphism
+      2)Dynamic Polymorphism
+
+  Static polymorphism 
+    Defining multiple functionalities with the same name but different arguments  with in the same class.
+  
+program:
+class Poly
+ {
+void fun1(int x)
+{
+System.out.println("Shankar");
+}
+void fun1(int x,int y)
+{
+System.out.println("sapient");
+}
+public static void main(String args[])
+{
+Poly p=new Poly();
+p.fun1(6);
+p.fun1(3);
+}
+}
+
+Dynamic Polymorphism
+  Defining multiple functionalities with the same name and with same number of arguments wwith in the same programs.
+
+PROGRAM
+
+class A
+{
+int i;
+void fun1(int x)
+{
+System.out.print ln("shankar");
+}
+}
+class B extends A
+{
+int j;
+void fun1(int x)
+{
+System.out.print ln("sapient");
+}
+public static void main(String args[])
+{
+B b=new B();
+b.fun1(2);
+}
+}
+
+
+16)Clculator program
+
+
+import java.util.scanner;
+
+class Calculator
+
+{
+public static void main(String args[])
+{
+int i,j,output;
+char x;
+Scanner s=new Scanner(System.in);
+System.out.print("enter the vallue of i");
+i=s.nextint();
+System.out.print("enter the vallue of j");
+j=s.nextint();
+System.out.print("enter the vallue of x");
+x=s.nextchar()
+
+switch(x)
+{
+case '+':output=i+j;break;
+case '-':output=i-j;break;
+case '*':output=i*j;break;
+case '%':output=i%j;break;
+default:System.out.print("not found");
+}
+System.out.println(output);
+}
+
+
+
+ 
+      
+ 
+
+
